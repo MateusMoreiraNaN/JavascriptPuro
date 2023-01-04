@@ -3,13 +3,19 @@ function experi(minhaExperi){
     //let pleno = 4
     //let senior = 7
 
-    if(minhaExperi < 1){
+    if(minhaExperi > 0 && minhaExperi <= 1){
         console.log('Programador: Estagiário');
-    }if(minhaExperi == junior){
+    }else if(minhaExperi > 1 && minhaExperi <= 2){
         console.log('Programador: Junior');
+    }else if(minhaExperi > 3 && minhaExperi <= 6){
+        console.log('Programador: Pleno');
+    }else if(minhaExperi > 7 && minhaExperi <= 10){
+        console.log('Programador: Senior');
     }
 
 
 }
 
-let minhaExperi = 4
+let minhaExperi = 8
+
+let euProgramador = experi(minhaExperi)
