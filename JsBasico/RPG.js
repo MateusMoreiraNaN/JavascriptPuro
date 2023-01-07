@@ -72,8 +72,8 @@ let combate = build(personagem1, personagem2, personagem3);
 console.log(' ');
 
 personagem1.vida -= 4
-personagem3.vida -= 8
-personagem2.vida -= 5
+personagem3.vida -= 18
+personagem2.vida -= 10
 
 function build2(personagem1, personagem2, personagem3){
     if(personagem1.vida >= personagem2.vida){
@@ -117,4 +117,15 @@ if(personagem1.vida <= 0){
     console.log('Personagem2 morreu');
 }else if(personagem3.vida <= 0){
     console.log('Personagem3 morreu');
+}
+
+if(personagem1.vida > 0 && personagem2.vida == 0 && personagem3.vida == 0){
+    console.log('Personagem1 ganhou');
+    console.log('Fim');
+}else if(personagem2.vida > 0 && personagem1.vida == 0 && personagem3.vida == 0){
+    console.log('Personagem2 ganhou');
+    console.log('Fim');
+}else if(personagem3.vida > 0 && personagem1.vida == 0 && personagem2.vida == 0){
+    console.log('Personagem3 ganhou');
+    console.log('Fim');
 }
