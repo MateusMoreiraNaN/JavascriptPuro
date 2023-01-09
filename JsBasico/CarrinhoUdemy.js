@@ -23,9 +23,20 @@ cursos.pop()
 
 cursos.push('NestJS do Zero com TypeORM, Mongoose, Prisma e Swagger')
 
-
+/*
 for(let n = 0; n < cursos.length; n++){
     console.log(cursos[n]);
+}
+*/
+
+/*
+for(let curso in cursos){
+    console.log(cursos[curso]);
+}
+*/
+
+for(let curso of cursos){
+    console.log(curso);
 }
 
 

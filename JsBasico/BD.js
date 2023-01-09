@@ -21,6 +21,6 @@ let DB = [
     25072000
 ]
 
-for(let n = 0; n < DB.length; n++){
-    console.log(DB[n]);
+for(let db in DB){
+    console.log(DB[db]);
 }
