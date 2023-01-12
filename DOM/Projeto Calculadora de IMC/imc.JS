@@ -35,4 +35,7 @@ const data = [
       info: "Obesidade grave",
       obesity: "III",
     },
-  ];
+];
+
+const imcTable = document.querySelector("#imc-table")
+
