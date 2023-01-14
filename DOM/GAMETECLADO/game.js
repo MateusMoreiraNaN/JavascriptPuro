@@ -1,62 +1,123 @@
+const tela = document.querySelector("ul")
 
 function atirando(e){
     if(e.key === 'q'){
-        console.log('atirando');
+        let comando = 'Atirando'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 function abaixar(e){
     if(e.key === 'Control'){
-        console.log('abaixado');
+        let comando = 'Abaixando'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 } 
 
 function correndo(e){
     if(e.key === 'Shift'){
-        console.log('Correndo');
+        let comando = 'Correndo'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 function frente(e){
     if(e.key === 'w'){
-        console.log('andando para frente');
+        let comando = 'Andando para frente'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 function esquerda(e){
     if(e.key === 'd'){
-        console.log('Esquerda');
+        let comando = 'Esquerda'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 function direita(e) {
     if(e.key === 'a'){
-        console.log('Direita');
+        let comando = 'Direita'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 function voltar(e){
     if(e.key === 's'){
-        console.log('Voltando');
+        let comando = 'Voltando'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 function menu(e){
     if(e.key === 'Tab'){
-        console.log('Abrindo o menu');
+        let comando = 'Abrindo o menu'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 
 function recuperarvida(e){
     if(e.key === 'f'){
-        console.log('Recuperando vida...');
+        let comando = 'Recuperando vida'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
 function pular(e){
     if(e.key === 'Space'){
-        console.log('Pulando');
+        let comando = 'Pulando'
+
+        let newLi = document.createElement('li')
+
+        newLi.innerText = comando
+        
+        tela.appendChild(newLi)
     }
 }
 
