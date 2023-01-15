@@ -27,6 +27,7 @@ function abaixar(e){
 function correndo(e){
     if(e.key === 'Shift'){
         let comando = 'Correndo'
+        let teste = 'teste'
 
         let newLi = document.createElement('li')
 
