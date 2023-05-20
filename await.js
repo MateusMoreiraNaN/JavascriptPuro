@@ -1,7 +1,7 @@
 const email = ()=>{
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
-            let emailF = "mateusgodoi07@gmail.com"
+            let emailF = "mateusgodoi007@gmail.com"
             let emailtrue = "mateusgodoi007@gmail.com"
             if(emailF === emailtrue){
                 resolve("Bem vindo!!")
